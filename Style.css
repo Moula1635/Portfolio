@@ -431,3 +431,25 @@ footer p {
   text-align: center;
 }
 
+.profile-picture {
+  transition: transform 0.2s ease-out;
+}
+
+
+.bio {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+}
+
+.tech-stack {
+  font-weight: bold;
+  color: #007acc;
+}
+
+.hobbies {
+  font-style: italic;
+  color: #ff4500;
+}
