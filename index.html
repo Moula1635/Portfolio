@@ -1,385 +1,859 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="Style.css" />
-    <link rel="stylesheet" href="Mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Moula Saginala</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Moula Saginala</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile" class="profile-dissolve">
-      <div class="section__pic-container">
-        <img src="./Assets/MOULA profile-modified.png" alt="Moula Saginala profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Moula Saginala an Apple Employee working on Selenium & Playwright Automation</h1>
-        <p class="section__text__p2">Backend Developer and DevOps Enthusaist</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./Assets/MOULA_RESUME.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./Assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/moula-saginala1635'"
-          />
-          <img
-            src="./Assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./Assets/Moula_Saginala2.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./Assets/Experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>NA</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./Assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <h4>Vellore Institute of Technology</h4>
-              <h5>Integrated M.Tech - Software Engineering </h5>
-              <p>8.20 CGPA</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I'm a creative and hardworking individual with a strong background in DevOps and backend development, 
-              and I'm currently looking for an internship or a Full time oppurtunity. I thrive when faced with challenging situations, 
-              and I'm dedicated to creating a positive and collaborative work environment. I'm excited to make meaningful 
-              contributions to the team's success. In addition to my technical skills, I have a passion for data science 
-              and I'm constantly expanding my knowledge in this field.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./Assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1"> My</p>
-      <h1 class="title">Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">DevOps</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Linux</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AWS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Jenkins</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Docker</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Kubernetes</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
+<html lang="en" data-theme="light">
 
-              
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moula Saginala | Portfolio</title>
+    <meta name="description"
+        content="Moula Saginala - Software Engineer focused on building scalable, efficient applications">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .ripple {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background-color: var(--bg-primary);
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 9999;
+            transition: width 0s, height 0s;
+        }
+
+        .ripple.animate {
+            animation: rippleEffect 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        @keyframes rippleEffect {
+            0% {
+                width: 0;
+                height: 0;
+                opacity: 0.8;
+            }
+
+            100% {
+                width: 300vmax;
+                height: 300vmax;
+                opacity: 1;
+            }
+        }
+
+        /* Improve theme toggle button for better UX */
+        .theme-toggle {
+            z-index: 10000;
+            /* Ensure it stays above the ripple */
+        }
+
+        :root {
+            --bg-primary: #fafafa;
+            --bg-card: #ffffff;
+            --text-primary: #333333;
+            --text-secondary: #555555;
+            --text-muted: #777777;
+            --border-color: rgba(0, 0, 0, 0.05);
+            --shadow-color: rgba(0, 0, 0, 0.03);
+            --accent-color: #2f80ed;
+            --button-hover: #f5f5f5;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-card: #1a1a1a;
+            --text-primary: #f5f5f5;
+            --text-secondary: #cccccc;
+            --text-muted: #999999;
+            --border-color: rgba(255, 255, 255, 0.05);
+            --shadow-color: rgba(0, 0, 0, 0.2);
+            --accent-color: #4f9eff;
+            --button-hover: #222222;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        body {
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.5;
+            background-color: var(--bg-primary);
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        /* Create pseudo-element for background gradients */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg,
+                    var(--bg-primary),
+                    var(--bg-primary),
+                    rgba(47, 128, 237, 0.05),
+                    var(--bg-primary));
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            transition: opacity 0.5s ease;
+            opacity: 1;
+        }
+
+        /* Create another pseudo-element for dark mode gradient */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg,
+                    #111111,
+                    #111111,
+                    rgba(79, 158, 255, 0.1),
+                    #111111);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            transition: opacity 0.5s ease;
+            opacity: 0;
+            /* Hidden by default */
+        }
+
+        /* Control visibility of gradients based on theme */
+        [data-theme="light"] body::before {
+            opacity: 1;
+        }
+
+        [data-theme="light"] body::after {
+            opacity: 0;
+        }
+
+        [data-theme="dark"] body::before {
+            opacity: 0;
+        }
+
+        [data-theme="dark"] body::after {
+            opacity: 1;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 2.5rem;
+            background-color: var(--bg-card);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px var(--shadow-color);
+            border: 1px solid var(--border-color);
+            position: relative;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+
+        .profile-picture-container {
+            position: relative;
+            width: 130px;
+            height: 130px;
+            margin-right: 1.5rem;
+            overflow: visible;
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transform-style: preserve-3d;
+            will-change: transform;
+        }
+
+        .profile-picture {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            /* Very thin, semi-transparent border */
+            padding: 1px;
+            /* Reduced padding */
+            box-shadow: 0 4px 10px var(--shadow-color);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                box-shadow 0.5s ease;
+        }
+
+        /* Adjust border for dark mode */
+        [data-theme="dark"] .profile-picture {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .profile-picture:hover {
+            box-shadow: 0 8px 20px var(--shadow-color);
+            transform: scale(1.05);
+        }
+
+        .name-title {
+            flex: 1;
+        }
+
+        .name {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            position: relative;
+            letter-spacing: -0.5px;
+            color: var(--text-primary);
+            transition: color 0.3s ease;
+        }
+
+        .name::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background-color: var(--accent-color);
+            border-radius: 50%;
+            top: 14px;
+            right: -12px;
+            transition: background-color 0.3s ease;
+        }
+
+        .title {
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .tagline {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+
+        /* .bio {
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            transition: color 0.3s ease;
+        } */
+
+
+
+        .bio {
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+        }
+
+        .bio p {
+            margin-bottom: 1rem;
+        }
+
+        .bio p:last-child {
+            margin-bottom: 0;
+        }
+
+        .bio .highlight {
+            font-weight: 500;
+            color: var(--text-primary);
+            position: relative;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .bio .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: var(--accent-color);
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+            opacity: 0.5;
+        }
+
+        .bio .highlight:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        .cat-lover {
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            white-space: normal;
+        }
+
+        .cat-text {
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s ease;
+            color: var(--text-primary);
+            display: inline;
+        }
+
+        .cat-text::before {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
+            opacity: 0.6;
+        }
+
+        .cat-gif-container {
+            display: inline-block;
+            width: 40px;
+            height: 30px;
+            overflow: hidden;
+            vertical-align: middle;
+            margin: 0 4px;
+            border-radius: 4px;
+            opacity: 0.9;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .cat-lover:hover .cat-gif-container {
+            transform: translateY(-2px);
+            opacity: 1;
+        }
+
+        .cat-gif {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .fun-fact {
+            margin-top: 1.5rem;
+            padding: 0.8rem 1rem;
+            background-color: rgba(var(--accent-color-rgb, 47, 128, 237), 0.05);
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-color);
+            font-style: italic;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .fun-fact:hover {
+            transform: translateX(3px);
+            box-shadow: 0 2px 8px rgba(var(--shadow-color-rgb, 0, 0, 0), 0.1);
+        }
+
+        .emoji {
+            font-size: 1.4rem;
+            margin-right: 0.7rem;
+            display: inline-block;
+        }
+
+        @keyframes subtle-bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-3px);
+            }
+        }
+
+        .fun-fact:hover .emoji {
+            animation: subtle-bounce 1s infinite;
+        }
+
+        .fun-text {
+            display: inline;
+        }
+
+        .contact-item {
+            margin-bottom: 0.75rem;
+            display: flex;
+        }
+
+        .label {
+            width: 60px;
+            color: var(--text-muted);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .social {
+            margin-top: 2.5rem;
+            display: flex;
+            gap: 1.2rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background-color: var(--border-color);
+        }
+
+        .social-link:hover {
+            color: var(--accent-color);
+            transform: translateY(-3px);
+            background-color: var(--button-hover);
+            box-shadow: 0 4px 8px var(--shadow-color);
+        }
+
+        .social-link svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+            transition: transform 0.3s ease;
+        }
+
+        .social-link:hover svg {
+            transform: scale(1.2);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            transform: rotate(15deg);
+        }
+
+        [data-theme="dark"] .theme-toggle:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .theme-toggle svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--text-primary);
+            transition: fill 0.3s ease;
+        }
+
+        .sun-icon {
+            display: none;
+        }
+
+        .moon-icon {
+            display: block;
+        }
+
+        [data-theme="dark"] .sun-icon {
+            display: block;
+        }
+
+        [data-theme="dark"] .moon-icon {
+            display: none;
+        }
+
+        .resume-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: 500;
+            margin-top: 1.5rem;
+            border: 1px solid var(--accent-color);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
+
+        .resume-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(47, 128, 237, 0.3);
+        }
+
+        .resume-button svg {
+            width: 16px;
+            height: 16px;
+            transition: transform 0.3s ease;
+        }
+
+        .resume-button:hover svg {
+            transform: translateY(2px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+                margin: 0 1rem;
+                border-radius: 8px;
+                width: 90%;
+            }
+
+            .theme-toggle {
+                top: 15px;
+                right: 15px;
+                width: 36px;
+                height: 36px;
+            }
+
+            .profile-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-picture-container {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+
+            .social {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+
+        /* Add subtle sparkle animation for the magic effect */
+        .magic-sparkle {
+            position: absolute;
+            pointer-events: none;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-color);
+            border-radius: 50%;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 8px 2px rgba(47, 128, 237, 0.4);
+        }
+
+        @keyframes sparkle {
+            0% {
+                opacity: 0;
+                transform: scale(0) translate(-50%, -50%);
+            }
+
+            50% {
+                opacity: 0.8;
+                transform: scale(1) translate(-50%, -50%);
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(0) translate(-50%, -50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                    d="M12 11.807C10.7418 10.5483 9.88488 8.94484 9.53762 7.1993C9.19037 5.45375 9.36832 3.64444 10.049 2C8.10826 2.38205 6.3256 3.33431 4.92899 4.735C1.02399 8.64 1.02399 14.972 4.92899 18.877C8.83499 22.783 15.166 22.782 19.072 18.877C20.4723 17.4805 21.4245 15.6983 21.807 13.758C20.1625 14.4385 18.3533 14.6164 16.6077 14.2692C14.8622 13.9219 13.2588 13.0651 12 11.807V11.807Z" />
+            </svg>
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                    d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" />
+                <path d="M12 1V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M12 21V23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M4.22 4.22L5.64 5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M18.36 18.36L19.78 19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M1 12H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M21 12H23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M4.22 19.78L5.64 18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </button>
+
+        <div class="profile-section">
+            <div class="profile-picture-container" id="magnetic-container">
+                <img src="Assets/Profile photo moula.png" alt="Moula Saginala" class="profile-picture"
+                    id="magnetic-image">
             </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Programming & Data science</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Pandas & Numpy</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SQL</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+            <div class="name-title">
+                <h1 class="name">Moula Saginala</h1>
+                <div class="title">Software Engineer</div>
+                <div class="tagline">Building Robust & Scalable Software</div>
             </div>
-          </div>
         </div>
-      </div>
-      <img
-        src="./Assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">My Work</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./Assets/diamond-316610_1920.jpg"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Diamond Price Prediction System</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Moula1635/Diamond-price-prediction-system/tree/master'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://colab.research.google.com/drive/1MD3Ks-ai1-fqMpEUxpSNC9c2VMy8t6ro?usp=sharing'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./Assets/FACE EXPRESSION.jpg"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Facial Expression Detection</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Moula1635/Facial-Expression-Detection-System'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://colab.research.google.com/drive/1k8o-YpI73jAcrQVTFbX1yY6SqZL1j0Nq?usp=sharing'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./Assets/GAME.jpg"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Game Deployment with Docker on AWS Elastic Beanstalk</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
+
+        <!-- <div class="bio">
+            I build software that works—efficient, scalable, and actually useful. Right now, I’m an Automation Test Engineer making sure everything runs smoothly with Java, TestNG, JUnit, Selenium, and Playwright. I also work on backend development, writing solid, scalable code that keeps things running behind the scenes.
+
+            When I’m not coding, I’m probably out hiking, playing badminton, or hitting the gym. I’m also deep into old movies, anime, and, most importantly, The Weeknd—I could listen to him for life.
+            
+            I like solving interesting problems, building cool things, and constantly leveling up. Always learning, always improving.       
+         </div> -->
+
+        <div class="bio">
+            <p>Hey there! I build <span class="highlight">software</span> that actually works—efficient, scalable,
+                and useful in real life.</p>
+
+            <p>Right now, I'm working as an <span class="highlight">Automation Test Engineer</span>, making sure
+                everything runs smoothly using Java, Selenium, playwright and friends. I also enjoy <span class="highlight">backend
+                    development</span>, writing clean code that keeps things running behind the scenes.</p>
+
+            <p>When I'm not coding? Probably hiking trails, playing badminton, or hitting the gym. I'm also into old classic
+                films, anime, and <span class="highlight">The Weeknd</span> (could listen to his tracks forever).</p>
+
+            <p>I'm all about solving cool problems and building things that matter. <span class="highlight">Always
+                    vibing, always growing</span>. ✌️</p>
+
+            <p class="cat-lover">
+                And yes, I'm a&nbsp <span class="cat-text">certified cat enthusiast</span>
+                <span class="cat-gif-container"><img src="Assets/cat.gif" alt="cat gif" class="cat-gif"></span>                — if you have any funny cat videos or memes, you know what to do.
+            </p>
         </div>
-      </div>
-      <img
-        src="./Assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./Assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:saginalamoula1635@gmail.com">saginalamoula1635@gmail.com</a></p>
+
+
+        <div class="contact">
+            <div class="contact-item">
+                <span class="label">Email</span>
+                <span><a href="mailto:saginalamoula1635@gmail.com">saginalamoula1635@gmail.com</a></span>
+            </div>
+            <div class="contact-item">
+                <span class="label">Based</span>
+                <span>Bengaluru, India</span>
+            </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./Assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/moula-saginala1635">LinkedIn</a></p>
+
+        <a href="https://drive.google.com/file/d/113cuHoPoW_a4q4zVZuQ6vxAfb8l3ks-u/view?usp=sharing" 
+   class="resume-button" 
+   target="_blank" 
+   rel="noopener noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+    </svg>
+    My Resume
+</a>
+
+
+        <div class="social">
+            <a href="https://x.com/Moula_111" class="social-link" aria-label="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+                Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/moulasaginala/" class="social-link" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+                LinkedIn
+            </a>
+            <a href="https://github.com/Moula1635" class="social-link" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                GitHub
+            </a>
         </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      
-    </footer>
-    <script src="Script.js"></script>
-  </body>
+    </div>
+
+    <script>
+
+
+
+
+        const themeToggle = document.querySelector('.theme-toggle');
+        const htmlElement = document.documentElement;
+
+        // Check for saved theme preference or use default
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        htmlElement.setAttribute('data-theme', savedTheme);
+
+        // Toggle theme on button click
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            htmlElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+
+            // Add sparkle effect on theme toggle
+            createSparkles(10);
+        });
+
+        // Magic sparkle effects
+        function createSparkles(count) {
+            const container = document.querySelector('.container');
+
+            for (let i = 0; i < count; i++) {
+                const sparkle = document.createElement('div');
+                sparkle.classList.add('magic-sparkle');
+
+                // Random position around the container
+                const posX = Math.random() * container.offsetWidth;
+                const posY = Math.random() * container.offsetHeight;
+
+                sparkle.style.left = `${posX}px`;
+                sparkle.style.top = `${posY}px`;
+
+                // Random animation duration
+                const duration = 0.5 + Math.random() * 1;
+                sparkle.style.animation = `sparkle ${duration}s ease forwards`;
+
+                container.appendChild(sparkle);
+
+                // Remove sparkle after animation completes
+                setTimeout(() => {
+                    sparkle.remove();
+                }, duration * 1000);
+            }
+        }
+
+        // Add sparkle effect on page load
+        window.addEventListener('load', () => {
+            createSparkles(15);
+        });
+
+        // Add sparkle effect on social links hover
+        document.querySelectorAll('.social-link, .resume-button').forEach(link => {
+            link.addEventListener('mouseenter', function () {
+                const rect = this.getBoundingClientRect();
+                const containerRect = document.querySelector('.container').getBoundingClientRect();
+
+                // Calculate position relative to container
+                const relX = rect.left - containerRect.left + rect.width / 2;
+                const relY = rect.top - containerRect.top + rect.height / 2;
+
+                const sparkle = document.createElement('div');
+                sparkle.classList.add('magic-sparkle');
+                sparkle.style.left = `${relX}px`;
+                sparkle.style.top = `${relY}px`;
+                sparkle.style.animation = 'sparkle 0.8s ease forwards';
+
+                document.querySelector('.container').appendChild(sparkle);
+
+                setTimeout(() => {
+                    sparkle.remove();
+                }, 800);
+            });
+        });
+
+        // Magnetic effect for profile picture
+        const magneticContainer = document.getElementById('magnetic-container');
+        const magneticImage = document.getElementById('magnetic-image');
+
+        if (magneticContainer && magneticImage) {
+            // Only apply magnetic effect on devices with pointer support (not touch-only)
+            if (window.matchMedia('(pointer: fine)').matches) {
+                magneticContainer.addEventListener('mousemove', function (e) {
+                    const rect = this.getBoundingClientRect();
+                    const centerX = rect.left + rect.width / 2;
+                    const centerY = rect.top + rect.height / 2;
+
+                    // Calculate distance from center (normalized from -1 to 1)
+                    const distanceX = (e.clientX - centerX) / (rect.width / 2);
+                    const distanceY = (e.clientY - centerY) / (rect.height / 2);
+
+                    // Calculate movement strength (max 15px movement)
+                    const strength = 15;
+                    const moveX = distanceX * strength;
+                    const moveY = distanceY * strength;
+
+                    // Apply transform to the container
+                    this.style.transform = `translate3d(${moveX}px, ${moveY}px, 0)`;
+
+                    // Add slight rotation for more natural feel
+                    magneticImage.style.transform = `perspective(500px) rotateY(${moveX * 0.05}deg) rotateX(${-moveY * 0.05}deg)`;
+                });
+
+                magneticContainer.addEventListener('mouseleave', function () {
+                    // Smooth reset when mouse leaves
+                    this.style.transition = 'transform 0.5s ease';
+                    magneticImage.style.transition = 'transform 0.5s ease';
+
+                    this.style.transform = 'translate3d(0, 0, 0)';
+                    magneticImage.style.transform = 'perspective(500px) rotateY(0) rotateX(0)';
+
+                    // Remove transition after animation completes
+                    setTimeout(() => {
+                        this.style.transition = '';
+                        magneticImage.style.transition = '';
+                    }, 500);
+                });
+            }
+        }
+    </script>
+</body>
+
 </html>
