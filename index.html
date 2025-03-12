@@ -557,27 +557,28 @@
                 overflow-y: auto;
             }
 
-            .container {
-                padding: 1.5rem;
-                margin: 15px auto;
-                border-radius: 8px;
-                width: 90%;
-                max-width: none;
-                overflow: hidden;
-            }
-
-            .theme-toggle {
-                top: 10px;
-                right: 10px;
-                width: 36px;
-                height: 36px;
-            }
-
             .profile-section {
-                flex-direction: column;
-                text-align: center;
-                margin-top: 20px;
-            }
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1.5rem; /* Changed from 20px to give more space at the top */
+    }
+    
+    .container {
+        padding-top: 3rem; /* Added more padding at the top to accommodate the theme toggle button */
+        margin: 15px auto;
+        border-radius: 8px;
+        width: 90%;
+        max-width: none;
+        overflow: hidden;
+    }
+    
+    .theme-toggle {
+        top: 10px;
+        right: 10px;
+        width: 36px;
+        height: 36px;
+        z-index: 100; /* Ensure the toggle stays on top */
+    }
 
             .profile-picture-container {
                 margin-right: 0;
